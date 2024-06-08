@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, aside, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header {
+            background-color: black;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        footer {
+            background-color: black;
+            color: #f1f1f1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>What is AI?</h1>
+            <p>AI allows computers to learn and solve problems almost like a person.
+                AI systems are trained on huge amounts of information and learn to identify the patterns in it, in order carry out tasks such as having human-like conversation, or predicting a product an online shopper might buy.</p>
+            <p>The technology is behind the voice-controlled virtual assistants Siri and Alexa, and helps Facebook and X - formerly known as Twitter- decide which social media posts to show users.</p>
+            <p> These programs learn from vast quantities of data, such as online text and images, to generate new content which feels like it has been made by a human.
+                So-called chatbots - like ChatGPT - can have text conversations.
+                Other AI programs like Midjourney can create images from simple text instructions.
+                Generative AI can also make videos and even produce music in the style of famous musicians.
+                But these programs sometimes generate inaccurate answers and images, and can reproduce the bias contained in their source material, such as sexism or racism.</p>
+        </article>
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">https://www.bbc.com/news/technology-65855333</a></li>
+                <li><a href="#">https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/</a></li>
+                <li><a href="#">https://www.ibm.com/topics/artificial-intelligence</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Contact Information: samairamittal005@example.com</p>
+    </footer>
+</body>
+</html>
